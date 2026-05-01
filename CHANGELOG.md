@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [1.0.40] - 2026-05-01
+### Fixed
+- explicitly pass -version to goreleaser to fix version choice
+
 ## [1.0.39] - 2026-03-18
 ### Changed
 - improved release-check versioning and diff reporting
