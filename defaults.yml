@@ -2,6 +2,19 @@ defaults:
   files:
     - .github/uci.yml
 org:
+  polydawn:
+    defaults:
+      files: []
+    language:
+      Go:
+        defaults:
+          files:
+            - .github/workflows/go-test.yml
+            - .github/workflows/go-check.yml
+            - .github/workflows/releaser.yml
+            - .github/workflows/release-check.yml
+            - .github/workflows/tagpush.yml
+            - version.json
   filecoin-project:
     defaults:
       files: []
